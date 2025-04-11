@@ -3,6 +3,7 @@ package calculator
 import "testing"
 
 func TestAdd(t *testing.T) {
+
 	tests := []struct {
 		name     string
 		a, b     int
@@ -20,4 +21,5 @@ func TestAdd(t *testing.T) {
 			}
 		})
 	}
+
 }
