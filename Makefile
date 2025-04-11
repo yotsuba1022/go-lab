@@ -10,4 +10,4 @@ clean:
 	rm -rf bin/
 
 test:
-	go test ./pkg/... -v
+	go test ./... -v
